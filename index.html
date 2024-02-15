@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Black Dust by Abominable</title>
+  <style type="text/css">
+  
+  .blackdust {
+    text-align: center;
+    font-family: monospace;
+    font-size: 28px;
+  }
+
+  .prose {
+    font-family: monospace;
+    font-size: 12px;
+  }
+  
+  .wordart {
+    border-radius: 12px;
+  }
+/*
+  .wavplotimage {
+    display: none;
+  }
+
+  .wavIcon {
+    display: inline-block;
+  }
+
+  .wavPlotDiv:hover .wavplotimage {
+    display: inline-block;
+  }
+
+  .wavPlotDiv:hover .wavIcon {
+    display: none;
+  }
+
+  .wavPlotDiv2:hover .wavplotimage {
+    display: inline-block;
+  }
+
+  .wavPlotDiv2:hover .wavIcon {
+    display: none;
+  }
+
+  .wavPlotDiv3:hover .wavplotimage {
+    display: inline-block;
+  }
+
+  .wavPlotDiv3:hover .wavIcon {
+    display: none;
+  }
+
+  .wavPlotDiv4:hover .wavplotimage {
+    display: inline-block;
+  }
+
+  .wavPlotDiv4:hover .wavIcon {
+    display: none;
+  }
+
+  .wavPlotDiv5:hover .wavplotimage {
+    display: inline-block;
+  }
+
+  .wavPlotDiv5:hover .wavIcon {
+    display: none;
+  }
+
+  .wavPlotDiv6:hover .wavplotimage {
+    display: inline-block;
+  }
+
+  .wavPlotDiv6:hover .wavIcon {
+    display: none;
+  }
+*/
+  body {
+    background-color: rgb(10, 10, 10);
+    color: rgb(245,255,255);
+    font-size: 16px;
+    background-image: url('images/blackdustPaper.jpg');
+    }
+  
+  h1 {
+    font-size: 18px;
+  }
+   
+  h2 {
+    font-size: 16px;
+  }
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    border-radius: 12px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(255,255,255);
+    padding: 5px;
+    }
+    
+    .grid-item {
+      background-color: rgba(15, 15, 15, 1);
+      border: 1px solid rgba(0, 0, 0, 0.8);
+      padding-left: 90px;
+      padding-right: 90px;
+      padding-top: 5px;
+      padding-bottom: 10px;
+      text-align: center;
+      }
+      
+    #blackdust-grid {
+      background-image: url('images/blackdustPaper.png');
+    }
+    
+    #synapse-grid {
+      background-image: url('images/synapsePaper.png');
+    }
+    
+    #redbugs-grid {
+      background-image: url('images/redbugsPaper.png');
+    }
+    
+    #etruscan-grid {
+      background-image: url('images/etruscanPaper.png');
+    }
+
+    #interzone-grid {
+      background-image: url('images/interzonePaper.png');
+    }
+     
+    #prophets-grid {
+      background-image: url('images/prophetPaper.png');
+    }
+    
+    </style>
+</head>
+<body>
+
+<img class="center" src="images/blackdust_coverart_logo_version1400x1400.png" alt="black dust design" width="300px">
+
+
+<h1 class='blackdust'>Black Dust - abominable</h1>
+<br>
+
+<div class="grid-container">
+  <div class="grid-item" id="blackdust-grid">
+    <h4 class='blackdust'>1. Black Dust</h4>
+    <!--<p><i>pillow talk</i></p>-->
+    <img class='wordart' src='images/blackdust_art1.png' width='300px'> <!--65%-->
+    <br>
+    <audio id="blackdust1" controls style="vertical-align: middle;"><source src="mp3/Black Dust - 01 - Black Dust - Abominable.mp3" type="audio/mpeg">Your browser does not support the audio element. </audio>
+    <br>
+    <div class="wavPlotDiv" id="wavplot1" style="display: none;">
+      <br>
+      <!--<img class="wavIcon" src="images/wav_icon.png" alt="audio icon" width="50px">-->
+      <img class='wavplotimage' src='mp3/Black Dust - 01 - Black Dust - Abominable.png' alt='wavplot' width='250px'>
+     </div>
+  </div>
+  <div class="grid-item" id="synapse-grid">
+    <h4 class='blackdust'>3. Synapse by Synapse</h4>
+    <!--<p><i>alpha waves</i></p>-->
+    <img class='wordart' src='images/blackdust_art3.png' width='300px'>
+    <br>
+    <audio id="blackdust3" controls style="vertical-align: middle;"><source src="mp3/Black Dust - 03 - Synapse by Synapse - Abominable.mp3" type="audio/mpeg">Your browser does not support the audio element. </audio>
+    <br>
+    <div class="wavPlotDiv3" id="wavplot3" style="display: none;">
+      <br>
+      <!--<img class="wavIcon" src="images/wav_icon.png" alt="audio icon" width="50px">-->
+      <img class='wavplotimage' src='mp3/Black Dust - 03 - Synapse by Synapse - Abominable.png' alt='wavplot' width='250px'>
+     </div>
+  </div>
+  <div class="grid-item" id="redbugs-grid">
+    <h4 class='blackdust'>5. Wall of Red Bugs</h4>
+    <!--<p><i>dream journal</i></p>-->
+    <img class='wordart' src='images/blackdust_art5.png' width='300px'>
+    <audio id="blackdust5" controls style="vertical-align: middle;"><source src="mp3/Black Dust - 05 - Wall of Red Bugs - Abominable.mp3" type="audio/mpeg">Your browser does not support the audio element. </audio>
+    <br>
+    <div class="wavPlotDiv5" id="wavplot5" style="display: none;">
+      <br>
+      <!--<img class="wavIcon" src="images/wav_icon.png" alt="audio icon" width="50px">-->
+      <img class='wavplotimage' src='mp3/Black Dust - 05 - Wall of Red Bugs - Abominable.png' alt='wavplot' width='250px'>
+     </div>
+  </div>  
+  <div class="grid-item" id="etruscan-grid">
+    <h4 class='blackdust'>2. Etruscan Doodles</h4>
+    <!--<p><i>dreams</i></p>-->
+    <img class='wordart' src='images/blackdust_art2.png' width='300px'><br>
+    <audio id="blackdust2" controls style="vertical-align: middle;"><source src="mp3/Black Dust - 02 - Etruscan Doodles - Abominable.mp3" type="audio/mpeg">Your browser does not support the audio element. </audio>
+    <br>
+    <div class="wavPlotDiv2" id="wavplot2" style="display: none;">
+      <br>
+      <!--<img class="wavIcon" src="images/wav_icon.png" alt="audio icon" width="50px">-->
+      <img class='wavplotimage' src='mp3/Black Dust - 02 - Etruscan Doodles - Abominable.png' alt='wavplot' width='250px'>
+     </div>
+  </div>
+  <div class="grid-item" id="interzone-grid">
+    <h4 class='blackdust'>4. Interzone</h4>
+    <!--<p><i>dream garden</i></p>-->
+    <img class='wordart' src='images/blackdust_art4.png' width='300px'>
+    <audio id="blackdust4" controls style="vertical-align: middle;"><source src="mp3/Black Dust - 04 - Interzone - Abominable.mp3" type="audio/mpeg">Your browser does not support the audio element. </audio>
+    <br>
+    <div class="wavPlotDiv4" id="wavplot4" style="display: none;">
+      <br>
+      <!--<img class="wavIcon" src="images/wav_icon.png" alt="audio icon" width="50px">-->
+      <img class='wavplotimage' src='mp3/Black Dust - 04 - Interzone - Abominable.png' alt='wavplot' width='250px'>
+     </div>
+  </div>
+  <div class="grid-item" id="prophets-grid">
+    <h4 class='blackdust'>6. The Prophets Hour</h4>
+    <!--<p><i>lucid</i></p>-->
+    <img class='wordart' src='images/blackdust_art6.png' width='300px'>
+    <br>
+    <audio id="blackdust6" controls style="vertical-align: middle;"><source src="mp3/Black Dust - 06 - The Prophets Hour - Abominable.mp3" type="audio/mpeg">Your browser does not support the audio element. </audio>
+    <br>
+    <div class="wavPlotDiv6" id="wavplot6" style="display: none;">
+      <br>
+      <!--<img class="wavIcon" src="images/wav_icon.png" alt="audio icon" width="50px">-->
+      <img class='wavplotimage' src='mp3/Black Dust - 06 - The Prophets Hour - Abominable.png' alt='wavplot' width='250px'>
+     </div>
+  </div>  
+</div>
+
+<h1>Other Releases</h1>
+<table style="width:100%">
+  <tr>
+    <th>
+      <h4 class='branch'>Silicate</h4>
+      <a href="https://drmarkreuter.github.io/silicateEP/" target="_blank"><img class='wordart' src='images/silicate-design2-1400x1400logo.png' width='300px'></a>
+      <br>
+      <a href="https://drmarkreuter.github.io/silicateEP/" target="_blank">Silicate</a>
+    </th>
+    <th>
+      <h4 class='branch'>Weaving Blossom</h4>
+      <a href="https://drmarkreuter.github.io/weavingBlossomEP/" target="_blank"><img class='wordart' src='images/weaving-blossom-bandcamp.jpg' width='300px'></a>
+      <br>
+      <a href="https://drmarkreuter.github.io/weavingBlossomEP/" target="_blank">Weaving Blossom</a>
+      
+    </th>
+    <th>
+      <h4 class='branch'>Schlafen</h4>
+      <a href="https://drmarkreuter.github.io/schlafenEP/" target="_blank"><img class='wordart' src='images/schlafen-bandcamp.jpg' width='300px'></a>
+      <br>
+      <a href="https://drmarkreuter.github.io/schlafenEP/" target="_blank">Schlafen</a>
+    </th>
+  </tr>
+</table>
+
+<h1>Socials</h1>
+<a href="https://linktr.ee/abominablemusic" target="_blank">everything is here...</a>
+
+<br>
+
+<hr>
+<h1>Some explanation</h1>
+
+<table style="width:100%">
+  <tr>
+    <th>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/yVz_21fYSZg?si=KLXROfOpzjDMRGeD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </th>
+    <th>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/ujYT5CDkvKg?si=yXp-xZTIzdk3DPEu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </th>
+  </tr>
+   <tr>
+    <th>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Z4AdLlk9tsA?si=dZpQsvh3CtnXYJ3m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </th>
+    <th>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/f9dlpkL2-Hg?si=PWTVhjQqlTLSE897" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </th>
+   </tr>
+  <tr>
+    <th>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/CCyFasa8X0s?si=sQUWO7xJnRAGiyoY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </th>
+    <th>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/fHrfd6MFe_Q?si=EY8y_knEd1Yi_kyd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </th>
+  </tr>
+</table>
+
+<hr>
+
+<!--
+<h2>Learn more...</h2>
+<img src="images/InOurTime-Dreams.png" alt="in our time" width="350px"><br>
+<a href="https://www.bbc.co.uk/programmes/p004y23x" target="_blank">Dreams episode from In Our Time on the BBC</a>
+<br>
+<img src="images/A_dream_(BM_1868,0808.9057).jpg" alt="dreams-wiki" width="350px"><br>
+<a href="https://en.wikipedia.org/wiki/Dream" target="_blank">Dreams on Wikipedia</a>
+<br>
+-->
+
+<img class="center" src="images/blackdust_coverart_logo_version1400x1400.png" alt="blackdust design" width="300px">
+
+<h1 class='blackdust'>Black Dust - abominable</h1>
+<hr>
+<footer>
+  <p>Made wth love by Mark</p>
+  <p><a href="mailto:mark.reuter@googlemail.com?subject=blackdust">contact</a></p>
+</footer>
+
+<script>
+function playSequentially() {
+  var audio1 = document.getElementById("blackdust1");
+  var audio2 = document.getElementById("blackdust2");
+  var audio3 = document.getElementById("blackdust3");
+  var audio4 = document.getElementById("blackdust4");
+  var audio5 = document.getElementById("blackdust5");
+  var audio6 = document.getElementById("blackdust6");
+  
+
+  // When the first audio finishes playing, play the second one
+  audio1.addEventListener("ended", function() {
+    audio2.play();
+  });
+  
+  audio2.addEventListener("ended", function() {
+    audio3.play();
+  });
+  
+  audio3.addEventListener("ended", function() {
+    audio4.play();
+  });
+  
+  audio4.addEventListener("ended", function() {
+    audio5.play();
+  });
+  
+  audio5.addEventListener("ended", function() {
+    audio6.play();
+  });
+  
+  audio6.addEventListener("ended",function(){
+    audio1.play();
+  });
+
+}
+
+// Call the function when the page loads
+window.onload = playSequentially;
+</script>
+
+<script>
+//function stopAudio1() {
+//  var audio1 = document.getElementById("branches1");
+//  audio1.pause();
+//  audio1.currentTime = 0;
+//}
+
+function stopAudio23456() {
+  var audio2 = document.getElementById("blackdust2");
+  var audio3 = document.getElementById("blackdust3");
+  var audio4 = document.getElementById("blackdust4");
+  var audio5 = document.getElementById("blackdust5");
+  var audio6 = document.getElementById("blackdust6");
+  
+  
+  audio2.pause();
+  audio2.currentTime = 0;
+  
+  audio3.pause();
+  audio3.currentTime = 0;
+  
+  audio4.pause();
+  audio4.currentTime = 0;
+  
+  audio5.pause();
+  audio5.currentTime = 0;
+  
+  audio6.pause();
+  audio6.currentTime = 0;
+  
+}
+
+function stopAudio13456() {
+  var audio1 = document.getElementById("blackdust1");
+  var audio3 = document.getElementById("blackdust3");
+  var audio4 = document.getElementById("blackdust4");
+  var audio5 = document.getElementById("blackdust5");
+  var audio6 = document.getElementById("blackdust6");
+  
+  
+  audio1.pause();
+  audio1.currentTime = 0;
+  
+  audio3.pause();
+  audio3.currentTime = 0;
+  
+  audio4.pause();
+  audio4.currentTime = 0;
+  
+  audio5.pause();
+  audio5.currentTime = 0;
+  
+  audio6.pause();
+  audio6.currentTime = 0;
+  
+}
+
+function stopAudio12456() {
+  var audio1 = document.getElementById("blackdust1");
+  var audio2 = document.getElementById("blackdust2");
+  var audio4 = document.getElementById("blackdust4");
+  var audio5 = document.getElementById("blackdust5");
+  var audio6 = document.getElementById("blackdust6");
+  
+  audio1.pause();
+  audio1.currentTime = 0;
+  
+  audio2.pause();
+  audio2.currentTime = 0;
+  
+  audio4.pause();
+  audio4.currentTime = 0;
+  
+  audio5.pause();
+  audio5.currentTime = 0;
+  
+  audio6.pause();
+  audio6.currentTime = 0;
+  
+}
+
+function stopAudio12356() {
+  var audio1 = document.getElementById("blackdust1");
+  var audio2 = document.getElementById("blackdust2");
+  var audio3 = document.getElementById("blackdust3");
+  var audio5 = document.getElementById("blackdust5");
+  var audio6 = document.getElementById("blackdust6"); 
+  
+  audio1.pause();
+  audio1.currentTime = 0;
+  
+  audio2.pause();
+  audio2.currentTime = 0;
+  
+  audio3.pause();
+  audio3.currentTime = 0;
+  
+  audio5.pause();
+  audio5.currentTime = 0;
+  
+  audio6.pause();
+  audio6.currentTime = 0;
+  
+}
+
+function stopAudio12346() {
+  var audio1 = document.getElementById("blackdust1");
+  var audio2 = document.getElementById("blackdust2");
+  var audio3 = document.getElementById("blackdust3");
+  var audio4 = document.getElementById("blackdust4");
+  var audio6 = document.getElementById("blackdust6");
+  
+  audio1.pause();
+  audio1.currentTime = 0;
+  
+  audio2.pause();
+  audio2.currentTime = 0;
+  
+  audio3.pause();
+  audio3.currentTime = 0;
+  
+  audio4.pause();
+  audio4.currentTime = 0;
+  
+  audio6.pause();
+  audio6.currentTime = 0;
+  
+}
+
+function stopAudio12345() {
+  var audio1 = document.getElementById("blackdust1");
+  var audio2 = document.getElementById("blackdust2");
+  var audio3 = document.getElementById("blackdust3");
+  var audio4 = document.getElementById("blackdust4");
+  var audio5 = document.getElementById("blackdust5");
+  
+  audio1.pause();
+  audio1.currentTime = 0;
+  
+  audio2.pause();
+  audio2.currentTime = 0;
+  
+  audio3.pause();
+  audio3.currentTime = 0;
+  
+  audio4.pause();
+  audio4.currentTime = 0;
+  
+  audio5.pause();
+  audio5.currentTime = 0;
+  
+}
+
+document.getElementById("blackdust1").addEventListener("play", stopAudio23456);
+document.getElementById("blackdust2").addEventListener("play", stopAudio13456);
+document.getElementById("blackdust3").addEventListener("play", stopAudio12456);
+document.getElementById("blackdust4").addEventListener("play", stopAudio12356);
+document.getElementById("blackdust5").addEventListener("play", stopAudio12346);
+document.getElementById("blackdust6").addEventListener("play", stopAudio12345);
+
+/*
+
+function showPlot() {
+  const plot1 = document.getElementById("wavplotimage");
+  plot1.style.display = "inline-block";
+}
+
+document.getElementById("blackdust1").addEventListener("play", showPlot);
+*/
+
+const dust1audio = document.getElementById("blackdust1");
+const plotdiv1 = document.getElementById("wavplot1");
+
+const dust2audio = document.getElementById("blackdust2");
+const plotdiv2 = document.getElementById("wavplot2");
+
+const dust3audio = document.getElementById("blackdust3");
+const plotdiv3 = document.getElementById("wavplot3");
+
+const dust4audio = document.getElementById("blackdust4");
+const plotdiv4 = document.getElementById("wavplot4");
+
+const dust5audio = document.getElementById("blackdust5");
+const plotdiv5 = document.getElementById("wavplot5");
+
+const dust6audio = document.getElementById("blackdust6");
+const plotdiv6 = document.getElementById("wavplot6");
+
+dust1audio.addEventListener("play", () => {
+  plotdiv1.style.display = "block";
+});
+
+dust1audio.addEventListener("pause", () => {
+  plotdiv1.style.display = "none";
+});
+
+dust1audio.addEventListener("ended", () => {
+  plotdiv1.style.display = "none";
+});
+
+dust2audio.addEventListener("play", () => {
+  plotdiv2.style.display = "block";
+});
+
+dust2audio.addEventListener("pause", () => {
+  plotdiv2.style.display = "none";
+});
+
+dust2audio.addEventListener("ended", () => {
+  plotdiv2.style.display = "none";
+});
+
+dust3audio.addEventListener("play", () => {
+  plotdiv3.style.display = "block";
+});
+
+dust3audio.addEventListener("pause", () => {
+  plotdiv3.style.display = "none";
+});
+
+dust3audio.addEventListener("ended", () => {
+  plotdiv3.style.display = "none";
+});
+
+dust4audio.addEventListener("play", () => {
+  plotdiv4.style.display = "block";
+});
+
+dust4audio.addEventListener("pause", () => {
+  plotdiv4.style.display = "none";
+});
+
+dust4audio.addEventListener("ended", () => {
+  plotdiv4.style.display = "none";
+});
+
+dust5audio.addEventListener("play", () => {
+  plotdiv5.style.display = "block";
+});
+
+dust5audio.addEventListener("pause", () => {
+  plotdiv5.style.display = "none";
+});
+
+dust5audio.addEventListener("ended", () => {
+  plotdiv5.style.display = "none";
+});
+
+dust6audio.addEventListener("play", () => {
+  plotdiv6.style.display = "block";
+});
+
+dust6audio.addEventListener("pause", () => {
+  plotdiv6.style.display = "none";
+});
+
+dust6audio.addEventListener("ended", () => {
+  plotdiv6.style.display = "none";
+});
+
+
+</script>
+
+<!-- github page https://drmarkreuter.github.io/schlafenEP/ -->
+
+</body>
+</html>
+
+
