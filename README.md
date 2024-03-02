@@ -8,5 +8,6 @@
 5. Wall of Red Bugs
 6. The Prophets Hour
 
+[Listen](https://drmarkreuter.github.io/blackdustEP/)
 ---
 
